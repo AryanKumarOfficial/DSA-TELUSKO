@@ -3,7 +3,7 @@ import java.util.Random;
 public class Demo {
 
     public static void main(String[] args) {
-        int nums[] = new int[10000];
+        int[] nums = new int[10000];
         Random random = new Random();
         for (int i = 0; i < nums.length; i++) {
             nums[i] = random.nextInt(0, 10000);
