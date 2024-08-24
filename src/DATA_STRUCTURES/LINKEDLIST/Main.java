@@ -10,6 +10,7 @@ public class Main {
         list.insertAtStart(301);
         list.insert(302);
         list.insertAt(0, 102);
+        list.deleteAt(2);
         list.show();
     }
 }
